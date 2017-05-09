@@ -1,16 +1,19 @@
 export const environment = {
-    production: true,
+    production: false,
 
-    region: 'us-east-1',
 
-    identityPoolId: 'us-east-1:fbe0340f-9ffc-4449-a935-bb6a6661fd53',
-    userPoolId: 'us-east-1_PGSbCVZ7S',
-    clientId: 'hh5ibv67so0qukt55c5ulaltk',
+    region: 'us-west-2',
+
+
+    identityPoolId: 'us-west-2:e21b2518-092d-4f1d-b60a-3d29ffbdca9f',
+    userPoolId: 'us-west-2_5kEO33bAy',
+    clientId: '1mqj8unfclcdlq2hbr3rdt2q5k',
+
 
     rekognitionBucket: 'rekognition-pics',
     albumName: "usercontent",
-    bucketRegion: 'us-east-1',
+    bucketRegion: 'us-west-2',
 
-    ddbTableName: 'LoginTrail'
+
+    ddbTableName: 'LoginTraildevtest'
 };
-
